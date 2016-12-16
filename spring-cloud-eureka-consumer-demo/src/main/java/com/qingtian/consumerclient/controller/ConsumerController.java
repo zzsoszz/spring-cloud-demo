@@ -23,12 +23,12 @@ public class ConsumerController {
     public String home() {
 		System.out.println("consumer");
 		try{
-			return this.restTemplate.getForObject("http://microservice-provider-user/testhome", String.class);
+			return this.restTemplate.getForObject("http://microservice-provider-user/provider", String.class);
 		}catch(Exception ex)
 		{
 			ex.printStackTrace();
 		}
-		return "dddd";
+		return "consumer";
     }
 	
 	

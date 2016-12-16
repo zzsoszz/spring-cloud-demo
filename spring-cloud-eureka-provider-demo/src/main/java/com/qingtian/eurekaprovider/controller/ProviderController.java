@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProviderController {
 	
-	@RequestMapping("/testhome")
-    public String home() {
+	@RequestMapping("/provider")
+    public String provider() {
         return "Hello world";
     }
 	
