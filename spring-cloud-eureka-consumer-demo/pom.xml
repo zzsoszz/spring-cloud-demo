@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.qingtian</groupId>
-	<artifactId>spring-cloud-eureka-provider-demo</artifactId>
+	<artifactId>spring-cloud-eureka-consumer-demo</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>spring-cloud-eureka-provider-demo</name>
-	<description>sspring-cloud-eureka-provider-demo</description>
+	<name>spring-cloud-eureka-consumer-demo</name>
+	<description>spring-cloud-eureka-consumer-demo</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
